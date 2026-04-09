@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Paws & Hearts</div>
+        <div class="links"><a href="index.html">Dashboard</a></div>
+    </nav>
+
+    <main style="padding: 20px;">
+        <h1>Add New Pet</h1>
+        <form id="addPetForm">
+            <input type="text" name="name" placeholder="Pet Name" required><br><br>
+            <input type="text" name="type" placeholder="Type (Dog/Cat)" required><br><br>
+            <input type="text" name="breed" placeholder="Breed" required><br><br>
+            <input type="number" name="age" placeholder="Age" required><br><br>
+            <textarea name="description" placeholder="Description" required></textarea><br><br>
+            
+            <button type="submit" class="btn-orange">Save Pet</button>
+            <button type="button" class="btn-secondary" onclick="location.href='index.html'">Cancel</button>
+        </form>
+    </main>
+
+    <script type="module" src="addpet.js"></script>
+</body>
+</html> 
